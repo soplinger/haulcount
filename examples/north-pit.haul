@@ -1,0 +1,30 @@
+# North Pit, week 42: limestone to the crusher
+# truck <id> capacity <t> rate <cost per hour>
+truck T1 capacity 20 rate 85.00
+truck T2 capacity 15 rate 70.00
+truck T3 capacity 20 rate 90.00
+
+# crew <date> <start> <end> rate <crew cost per hour> [target <tonnes>]
+crew 2026-10-12 06:00 14:00 rate 42.50 target 200
+load 2026-10-12 06:14 T1 19.50 limestone
+load 2026-10-12 06:31 T2 14.25 limestone
+load 2026-10-12 06:52 T1 19.50 limestone
+load 2026-10-12 07:10 T3 18.00 limestone
+load 2026-10-12 07:24 T2 14.25 limestone
+load 2026-10-12 07:49 T1 19.50 limestone
+load 2026-10-12 08:02 T3 18.00 limestone
+load 2026-10-12 08:40 T2 14.25 limestone
+load 2026-10-12 09:01 T1 19.50 limestone
+load 2026-10-12 09:22 T3 18.00 limestone
+load 2026-10-12 10:05 T1 19.50 limestone
+load 2026-10-12 10:30 T2 14.00 limestone
+load 2026-10-12 11:15 T3 18.00 limestone
+
+crew 2026-10-13 06:00 12:00 rate 42.50 target 150
+load 2026-10-13 06:20 T3 18.00 limestone
+load 2026-10-13 06:44 T1 19.50 limestone
+load 2026-10-13 07:05 T2 14.25 limestone
+load 2026-10-13 07:40 T3 18.00 limestone
+load 2026-10-13 08:15 T1 19.50 limestone
+load 2026-10-13 09:30 T3 18.00 limestone
+load 2026-10-13 10:20 T2 14.25 limestone
